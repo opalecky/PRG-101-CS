@@ -4,6 +4,16 @@
     public class Fruit
     {
         public string taste;
+        public float size = 1;
+
+        public bool eat(int bites)
+        {
+            for (int bite in bites) {
+                Console.WriteLine(bite);
+                size -= 1 / (float) bites; 
+            }
+            return true;
+        }
     }
 
     public class Apple : Fruit
@@ -34,6 +44,11 @@
         {
             Console.Write(age); // vypsání
             return age; // vrácení
+        }
+
+        public bool eat(int bites)
+        {
+            return false;
         }
     }
 
