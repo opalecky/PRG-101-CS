@@ -14,7 +14,7 @@ Větší vzorce čísel označujeme pomocí hexadecimálních hodnot a prefixu _
   
 V běžném životě se binární označování používá marginálně a většinou se používá hexadecimální označování, protože je kompaktnější.  
 Hexadecilmání čísla mají užitečnou vlastnost, že každá hexadecimální hodnota drží 4 bity. _**0xF** drží **0b1111**_
- a třeba _**0xB** drží **0b1011**_, takže do jednoho znaku uložíme až 16 hodnot, do dvou znaků 256 hodnot, což je velký rozdíl od potřebných 8 dvojkových znaků v případě binární soustavy.  
+ a třeba _**0xB** drží **0b1011**_, takže do jednoho znaku uložíme až 16 hodnot, do dvou znaků 256 hodnot, což je velký rozdíl od potřebných 8 znaků v případě binární soustavy.  
  
 ## Lekce 2:
 ### Datové typy (Data Types)
