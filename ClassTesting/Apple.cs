@@ -6,13 +6,10 @@
         public string taste;
         public float size = 1;
 
-        public bool eat(int bites)
+        public Fruit(string inTaste, float inSize)
         {
-            for (int bite in bites) {
-                Console.WriteLine(bite);
-                size -= 1 / (float) bites; 
-            }
-            return true;
+            taste = inTaste;
+            size = inSize;
         }
     }
 
@@ -32,7 +29,7 @@
             Console.WriteLine("Hello this is apple support.");
         }
 
-        public Apple(int inAge, Apple.TYPES inType, string inTaste)
+        public Apple(int inAge, Apple.TYPES inType, string inTaste) :base(inTaste, 1)
         {
 
             age = inAge;
